@@ -14,15 +14,16 @@ Installation:
 Test out some of the sample GeoJSON files included to get the hang of it. 
 
 ```
-	Usage
-	  $ staticcenter filepath
+Usage
+$ staticcenter filepath
 
-	Options
-    --style, -s  specify a style (defaults to Mapbox Streets)
-    --width, -w width of static image
-    --height, -h height of static image
-    --overlay, -o include an overlay and automatically fit image to overlay
+Options
+ --style, -s  specify a style (defaults to Mapbox Streets)
+ --width, -w width of static image
+ --height, -h height of static image
+ --overlay, -o include an overlay and automatically fit image to overlay
 
-	Examples
-	  $ staticcenter ./chicago.geojson --fit --overlay
+Examples
+$ staticcenter ./airport.geojson
+$ staticcenter ./lake-michigan.geojson --style 'mapbox/light-v10' --w 800 --h 600 --overlay
 ```
