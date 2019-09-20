@@ -26,4 +26,7 @@ Options
 Examples
 $ staticcenter ./airport.geojson
 $ staticcenter ./lake-michigan.geojson --style 'mapbox/light-v10' --w 800 --h 600 --overlay
+
+Help
+$ staticcenter --help
 ```
