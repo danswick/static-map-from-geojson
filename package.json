@@ -1,0 +1,23 @@
+{
+  "name": "bbox2zc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "staticcenter": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.7.0",
+    "@mapbox/sphericalmercator": "^1.1.0",
+    "@turf/bbox": "^6.0.1",
+    "@turf/center": "^6.0.1",
+    "@turf/helpers": "^6.1.4",
+    "load-json-file": "^6.2.0",
+    "meow": "^5.0.0"
+  }
+}
